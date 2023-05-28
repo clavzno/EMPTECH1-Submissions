@@ -1,0 +1,14 @@
+made june 8 2021
+this repl compiles the written tasks for emptech1 last sy from like what 7 months ago i don't remember
+
+some are answers some are personal stuff i submitted
+
+main.py => wt3 prob 1 and 2
+main2.txt => wt4 prob 1 and 2 (unfinished)
+main3.py => wt6 prob 1
+main3.1.py => wt6-1 file
+printhw.py => hello world assignment
+testcasesgrp5.py
+finalexam23.py
+week3aprint.py 
+week3ainout.py 

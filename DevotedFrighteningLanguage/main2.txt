@@ -1,0 +1,77 @@
+
+    What information/input is provided in the problem description?
+    Among these, which are necessary to solve the problem? For each input you include in this subtask, briefly explain why each is necessary.
+    Which are unnecessary in solving the problem? Briefly explain why these inputs are unnecessary.
+
+#1 A telecommunications company would like to determine which among its radio towers it should activate in order to reach specific key locations within their area. 
+
+# Each radio tower has a color, height, coverage radius, and a location on the map, which can be represented as an ordered pair LaTeX: (x,y) ( x , y ) on a Cartesian plane. 
+
+# The key locations that must be covered on the map are specific types of buildings. 
+Each key location has a building type, height, and the location of its receiver antenna, which is, also represented as an ordered pair LaTeX: (x,y) ( x , y ) on a Cartesian plane. 
+
+# A building is considered covered by the telecommunications company if it is within the radius of at least one of the radio towers. 
+
+Given the details of the radio towers and the key locations, can you select a set of radio towers to cover all the key locations?
+
+
+*****
+
+
+1) the information or inputs given includes the problem of the party in question as well as physical and geographical information of the radio towers belonging to the company and key locations. 
+
+problem: "A telecommunications company would like to determine which among its radio towers it should activate in order to reach specific key locations within their area."
+  a. radio towers:
+  physical: color, height
+  (flat)geographical: coverage radius, location
+  b. key locations:
+  physical: building type, height
+  (flat)geographical: location of receiver antenna
+
+2) radio towers: coverage radius, location (latex represented)
+key locations: location of receiver antenna (latex represented)
+
+  the coverage radius, location, of the radio towers are important because it is all that is needed to complete the goal of the company (which is to determine which radio tower to activate in order to reach a key location) from the radio tower side. the coverage radius includes the boundaries of the radio tower signal and location either brings the tower nearer or farther from the key locations and their respective receiver antennas ((depending on it's location as well. if the coverage of the radio tower and the receiver antennas don't insersect, then the goal has not been fulfilled.)) 
+
+  *note: these are also significant because they are both given respective ordered latex pairs. 
+
+3) radio towers: color, height
+key locations: building type, height
+
+  the above inputs are unimportant in solving the problem because they serve no significant purpose in the cartesian plane that acts like a flat, one dimensional map (which involves more of geographical location unlike a 3D cartesian plane which has a 3rd parameter defining it's 3rd dimension, to which then the height and building type/color may or may not have a role) the color adds nothing to the map, the height adds nothing to the map and nor do the building types and height of the locations add anything significant to the graph. the bottom line is, as long as the coverage of the radio tower is able to reach the antennas, then the company will be successful in their dilemma.
+
+      What information/input is provided in the problem description?
+    Among these, which are necessary to solve the problem? For each input you include in this subtask, briefly explain why each is necessary.
+    Which are unnecessary in solving the problem? Briefly explain why these inputs are unnecessary.
+
+#2 You are a member of the kitchen crew of a fast food restaurant. Currently, it is rush hour, so a lot of orders are coming in. 
+
+# For this problem, there are a few menu items that customers can order, each with their preparation tasks, menu price, and list of ingredients. 
+
+# After the customers pay for the food at the counter, their order is forwarded to you and the rest of the kitchen crew. 
+
+# Since a large volume of orders has been sent to the kitchen, you now have to organize the kitchen to prepare all the orders in a timely manner. 
+
+# Each member of the kitchen crew has a name, age, and the task they specialize in, which, for this problem, can be limited to chopping ingredients, using the stove, and washing dishes. 
+
+  Given the list of orders forwarded to the kitchen crew, how will you assign the tasks in order to deliver all the orders as efficiently as possible?
+
+***
+
+1) the information given or inputs are: 
+a. crew: name, age, task specialization [chopping, cooking, washing]
+b. menu item: order; preparation instructions, menu price, ingredients
+
+2) crew: task specialization
+menu item: order; preparation instructions, ingredients
+
+in the case of the crew, only the task specialization is important because the name and age becomes insignificant when you can identify a certain crew member by their specialization. for this problem, there are 3 members specifically assigned at the chopping station, cooking/stove, and washing station respectively. 
+
+next, depending on the order, the order is run through the chopping station crew member (given they know the ingredients needed), then passed onto the stove member to cook (given they know the cooking instructions), after the usage of dishes/tools/utensils, they are then passed onto the crew member stationed at the washing station. this would also serve as the kitchen organization as it would take a longer time for each member to do a whole order respectively. it would be a waste of specialization, time, and energy. 
+
+*as this is a fast food chain, most materials used are disposable and leaves less dishes or utensils to clean as compared to a sit-in restaurant. 
+
+3) crew: name, age
+order: menu price
+
+as previously mentioned, the name and age becomes of no use when you can identify a crew member by their specialization. essentially, it becomes less information to retain. the menu price in the situation is also insignificant because the price is out of the responsibilities of the kitchen crew. also, by the time the crew gets the order, the order would have already been paid through. 
